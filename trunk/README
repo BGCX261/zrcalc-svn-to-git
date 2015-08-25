@@ -1,0 +1,7 @@
+zrcalc
+
+Summary
+A simple mathematical expression evaluator written in Ruby.
+
+Description
+Zrcalc is a simple calculator written in Ruby. It has a LL(1) parser built in so that it can parse and evaluate general mathematical expressions. It also has a GUI wrapper built on Tk. This is my assignment for the course of Software Design.

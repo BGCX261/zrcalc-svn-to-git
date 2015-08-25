@@ -1,0 +1,20 @@
+#!/usr/bin/ruby
+
+require 'tk'
+
+puts $0
+puts __FILE__
+
+if $0 == __FILE__
+
+root = TkRoot.new {
+  title 'Test Ruby Tk'
+}
+
+TkLabel.new(root) {
+  text 'Hello, world!'
+  pack { padx 15; pady 15; side 'left' }
+}
+
+Tk.mainloop
+end
